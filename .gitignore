@@ -1,0 +1,64 @@
+# === Java / GWT / Maven ===
+
+# Maven target directories (compiled classes, war, etc.)
+target/
+**/target/
+
+# Eclipse / IntelliJ / VSCode project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS-specific files
+ehthumbs.db
+desktop.ini
+
+# === GWT specific ===
+
+# GWT compiler output
+war/
+deploy/
+www/
+gwt-unitCache/
+tomcat.*
+*.gwt.rpc
+
+.gwt/
+gwt-unitCache/
+*.launch
+
+# === Optional tools ===
+
+# Jetty / local server cache
+work/
+tmp/
+jetty/
+
+node_modules/
+dist/
+
+# === Test / coverage ===
+surefire-reports/
+failsafe-reports/
+*.coverage
+coverage/
+test-output/
+
+# === Generated files ===
+generated-sources/
+out/
+build/
