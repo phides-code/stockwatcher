@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
   <inherits name="com.google.gwt.user.User" />
-  <inherits name="com.google.gwt.user.theme.clean.Clean" />
+<!--  <inherits name="com.google.gwt.user.theme.clean.Clean" />-->
+<!--    <inherits name="com.google.gwt.user.theme.dark.Dark"/>-->
+    <inherits name="com.google.gwt.user.theme.standard.Standard"/>
 
-  <source path="" />
 
-  <entry-point class="com.google.gwt.sample.stockwatcher.App" />
+    <source path="" />
+
+  <entry-point class="com.google.gwt.sample.stockwatcher.StockWatcher" />
 
   <!-- Only support recent browsers -->
   <set-property name="user.agent" value="gecko1_8,safari" />

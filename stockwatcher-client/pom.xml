@@ -39,7 +39,7 @@
         <groupId>net.ltgt.gwt.maven</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
         <configuration>
-          <moduleName>com.google.gwt.sample.stockwatcher.App</moduleName>
+          <moduleName>com.google.gwt.sample.stockwatcher.StockWatcher</moduleName>
           <moduleShortName>stockwatcher</moduleShortName>
         </configuration>
       </plugin>
